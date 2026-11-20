@@ -24,4 +24,4 @@ Since `Sidebar-Any-App` moves external windows from the outside via WinAPI, diff
 * **Apps that manage their own window position:** Some custom-skinned apps, media players, games, or multi-window tools actively enforce or reset their own screen coordinates and may fight against being slid off-screen.      
 * **Maximized Windows:** Maximized windows are automatically restored (`SW_RESTORE`) before sliding so Windows allows moving them.      
 * **Elevated (Administrator) Windows:** Due to Windows UIPI security rules, `Sidebar-Any-App` cannot move windows running as Administrator unless `Sidebar-Any-App` itself is also started as Administrator.      
-* **Experimental / PoC status:** Built as a lightweight proof-of-concept — if an app behaves unexpectedly, use **"Restore all windows"** from the right-click or tray menu to bring everything back immediately.      
+* **Experimental / PoC status:** Built as a lightweight proof-of-concept, laying around since 2023 :D — if an app behaves unexpectedly, use **"Restore all windows"** from the right-click or tray menu to bring everything back immediately.      
