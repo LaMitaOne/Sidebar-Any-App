@@ -1,6 +1,8 @@
 # Sidebar-Any-App
        
 Dock any running Windows application into a collapsible, slide-out screen-edge sidebar — built as a standalone, reusable **pure Delphi VCL** component (`SidebarAnyApp.pas`) with zero third-party dependencies.      
+    
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LaMitaOne/Sidebar-Any-App)    
       
 <img width="1235" height="899" alt="Unbenannt" src="https://github.com/user-attachments/assets/7dd23893-5faf-425a-8ad4-106ce5461f14" />
       
