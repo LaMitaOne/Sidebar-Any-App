@@ -25,3 +25,5 @@ Since `Sidebar-Any-App` moves external windows from the outside via WinAPI, diff
 * **Maximized Windows:** Maximized windows are automatically restored (`SW_RESTORE`) before sliding so Windows allows moving them.      
 * **Elevated (Administrator) Windows:** Due to Windows UIPI security rules, `Sidebar-Any-App` cannot move windows running as Administrator unless `Sidebar-Any-App` itself is also started as Administrator.      
 * **Experimental / PoC status:** Built as a lightweight proof-of-concept, laying around since 2023 :D — if an app behaves unexpectedly, use **"Restore all windows"** from the right-click or tray menu to bring everything back immediately.      
+
+Note: I had this quickly ai refactored to use standard VCL controls so anyone can compile it out of the box, though you can still see in the comments what was originally used — some great components from BergSoft (NextGrid) and TMS Software. Feel free to grab their awesome component suites if you want to give the UI an even slicker look again!
