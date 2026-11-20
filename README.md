@@ -15,7 +15,9 @@ The core `MagneticWindow` engine originally came from my own media player: when 
 * **All 4 Screen Edges & Multi-Monitor:** Dock on the left, right, top, or bottom edge across multiple monitors via right-click context menu or system tray.      
 * **Smooth Slide-In / Slide-Out:** Click a sidebar tab to smoothly slide the attached app into view or tuck it back off-screen.      
 * **Crash & Offscreen Safety:** Automatically restores docked windows back onto the visible desktop on exit or via the right-click *"Restore all windows"* option so no window gets left stranded off-screen.      
-* **Standalone Component & 100% Standard VCL:** Everything lives cleanly inside `SidebarAnyApp.pas` using only built-in Delphi VCL controls and WinAPI (`EnumWindows`, `MoveWindow`).      
+* **Standalone Component & 100% Standard VCL:** Everything lives cleanly inside `SidebarAnyApp.pas` using only built-in Delphi VCL controls and WinAPI (`EnumWindows`, `MoveWindow`).
+         
+Compiled .exe and full Delphi source project included — nothing needed to install        
       
 ### ⚠️ Compatibility Notes & Caveats      
 Since `Sidebar-Any-App` moves external windows from the outside via WinAPI, different applications can react differently:      
